@@ -36,8 +36,8 @@ const About = () => {
             <p className="mt-4">
               So 4 years ago, I started studying Web Development and I just love
               it! I always liked to work with computers and{" "}
-              <span className="text-xl xl:text-2xl ">I loved to learn</span>, so I
-              started my journey!
+              <span className="text-xl xl:text-2xl ">I loved to learn</span>, so
+              I started my journey!
             </p>
             <p className="mt-4">
               It was not easy, and{" "}
@@ -93,7 +93,7 @@ const About = () => {
               </h1>
               <Timeline
                 date="2009 to 2019"
-                course="Waitress"
+                course="Waiter"
                 description="I started working part-time while studying"
               />
               <Timeline
