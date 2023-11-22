@@ -104,7 +104,7 @@ export const Form = () => {
           onChange={handleChange}
           className="bg-[#191d2b] p-2 mb-2 mt-2 rounded-xl"
         />
-        <p className="text-red-500 font-bold text-md mb-4 lg:text-lg">
+        <p className="text-red-500 font-bold text-md mb-4">
           {formErrors.username}
         </p>
         <label className="text-[#191d2b] font-bold">Email</label>
