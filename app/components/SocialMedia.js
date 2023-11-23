@@ -8,15 +8,23 @@ const SocialMedia = () => {
       <Link
         href="https://www.linkedin.com/in/ricardo-mdr"
         className="z-50 mr-3 "
+        target="_blank"
       >
         <AiFillLinkedin size={30} className="cursor-pointer" />
       </Link>
-      <Link href="https://github.com/ricardomreis22" className="z-50 mr-3">
+      <Link
+        href="https://github.com/ricardomreis22"
+        className="z-50 mr-3"
+        target="_blank"
+      >
         {" "}
         <AiFillGithub size={30} className="cursor-pointer" />
       </Link>
-      <Link href="https://facebook.com/ricardo.mdr22/" className="z-50">
-        {" "}
+      <Link
+        href="https://facebook.com/ricardo.mdr22/"
+        className="z-50"
+        target="_blank"
+      >
         <AiFillFacebook size={30} className="cursor-pointer" />
       </Link>
     </div>

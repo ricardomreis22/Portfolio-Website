@@ -17,8 +17,8 @@ const Button = (props) => {
       <Link
         href={props.href}
         className={`
-        ${props.className}
-`}
+        ${props.className}`}
+        target="_blank"
       >
         {props.buttonName}
       </Link>

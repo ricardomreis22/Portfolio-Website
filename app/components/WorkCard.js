@@ -11,7 +11,7 @@ const WorkCard = (props) => {
       <div className="hidden group-hover:flex flex-col justify-center items-center text-white">
         <p className="text-center text-sm lg:text-md ">{props.info}</p>
         <div className="mt-6">
-          <Link href={`${props.link}`}>
+          <Link href={`${props.link}`} target="_blank">
             <AiFillGithub size={40} className="cursor-pointer" />
           </Link>
         </div>
