@@ -5,15 +5,13 @@
 *{
   cursor: default;
 }
+
 body {
   background-color: #cfc8b8;
   box-sizing: border-box;
   font-size: 18px;
   color: #191d2b;
-  
 }
-
-
 
 .home{
   transition: ease-in-out;
@@ -32,17 +30,9 @@ body {
   animation: scaleAnim 1s ease-in-out;
 }
 
-/* @media only screen and (min-width: 1024px) {
-  .home{
-    transition: ease-in-out;
-    width: 100%;
-    height: 100%;
-    background-color: #191d2b;
-    position: absolute;
-    left: 0;
-    top: 0;
-    -webkit-clip-path: polygon(0 0, 13% 0, 25% 100%, 0% 100%);
-            clip-path: polygon(0 0, 13% 0, 25% 100%, 0% 100%);
+@media (max-width: 1024px){
+  .home{  
+    -webkit-clip-path: polygon(0 0, 14% 0, 1% 100%, 0% 100%);
+            clip-path: polygon(0 0, 14% 0, 1% 100%, 0% 100%);
   }
-} */
-
+}

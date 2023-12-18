@@ -22,34 +22,25 @@ const About = () => {
         </div>
         <div className="flex flex-col justify-center items-center lg:flex-row lg:justify-around lg:items-start lg:mt-20">
           <div className="w-[90%] mb-20 text-sm text-justify leading-10 lg:w-1/2 xl:text-lg lg:text-left xl:w-1/3 lg:mb-32">
-            <p className=" mt-24">
-              My life wasn't always been in Web Development. I studied Sports
-              Science and started work as a teacher, but never fulfilled my
-              dreams and expectations with that job, so I started thinking about
-              changing my life...
+            <h1 className=" mt-24">Greetings from Southampton, UK! 🚀</h1>
+            <p className="mt-4">
+              I'm your friendly neighborhood Full Stack Web Developer with a
+              knack for turning coffee into code. Originating from the intense
+              world of Benfica's futsal coaching, where every goal taught me the
+              art of precision. Now, I've seamlessly shifted gears, blending
+              sports ethos with tech wizardry.
             </p>
             <p className="mt-4">
-              I always love{" "}
-              <span className="text-xl xl:text-2xl ">challenges</span> and to
-              <span className="text-xl xl:text-2xl "> solve problems!</span>
-            </p>
-            <p className="mt-4">
-              So 4 years ago, I started studying Web Development and I just love
-              it! I always liked to work with computers and{" "}
-              <span className="text-xl xl:text-2xl ">I loved to learn</span>, so
-              I started my journey!
-            </p>
-            <p className="mt-4">
-              It was not easy, and{" "}
-              <span className="text-xl xl:text-2xl ">
-                to do it all by myself
-              </span>{" "}
-              was even harder, but I believe it helped me to be
-              <span className="text-xl xl:text-2xl "> more prepared</span> and
-              ready for all the difficulties that are coming by!
+              My journey reflects a commitment to constant evolution. From
+              molding young sports enthusiasts to crafting innovative web
+              solutions, I've learned that the game is not just on the field.
+              Join me in this digital arena, where every line of code is a
+              strategic move, and every bug squashed is a victory won. Ready to
+              turn your ideas into web wonders—let's embark on this coding
+              adventure together! 💻✨
             </p>
           </div>
-          <div className="about-item grid grid-cols-2 w-[90%] gap-2 text-xl font-bold lg:w-1/3 lg:mt-64 lg:h-20 xl:mt-32">
+          <div className="about-item grid grid-cols-2 w-[90%] gap-2 text-xl font-bold lg:grid-cols-1 lg:w-1/4 lg:gap-10 lg:mt-32 lg:h-20 xl:mt-32 xl:grid-cols-2 ">
             <Complements
               adj="Love to Learn"
               class="hover:-translate-x-2 hover:-translate-y-2"

@@ -26,16 +26,10 @@ const Projects = () => {
           <div className="w-full px-4 ">
             <div className="max-w-[50%] mx-auto grid text-center mb-10 lg:max-w-[70%] lg:grid-cols-2 gap-20 gap-y-12 xl:grid-cols-3 xl:gap-20">
               <WorkCard
-                link="https://github.com/me50/ricardomreis22.git"
+                link="https://github.com/ricardomreis22/padeltournaments.git"
                 title="Padel Tournament"
                 lang="Python, HTML, CSS, Flask"
                 info="Final project of the course 'CS50: Introduction to Computer Science' creating a Padel Club!"
-              />
-              <WorkCard
-                link="https://github.com/ricardomreis22/notepad.git"
-                title="Notepad"
-                lang="HTML, CSS, React"
-                info="A small project where I have to finish a notepad app!"
               />
               <WorkCard
                 link="https://github.com/ricardomreis22/Tenzies-Game.git"
