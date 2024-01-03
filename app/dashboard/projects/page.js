@@ -34,14 +34,14 @@ const Projects = () => {
             info="Final project of the course 'CS50: Introduction to Computer Science' creating a Padel Club!"
           />
           <WorkCard
-            img="/Tenzies Game.jpg"
+            img="/padel.gif"
             link="https://github.com/ricardomreis22/Tenzies-Game.git"
             title="Tenzies Game"
             lang={tenziesLang}
             info="A project where I have done a game with the objetive of getting all numbers equal!"
           />
           <WorkCard
-            img="/Tenzies Game.jpg"
+            img="/padel.gif"
             link="https://github.com/ricardomreis22/Quizzical.git"
             title="Quizzical"
             lang={tenziesLang}

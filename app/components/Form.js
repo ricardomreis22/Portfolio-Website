@@ -10,8 +10,6 @@ export const Form = () => {
 
   const form = useRef();
 
-  console.log(form);
-
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormValues({ ...formValues, [name]: value });
