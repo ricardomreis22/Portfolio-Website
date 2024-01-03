@@ -20,8 +20,8 @@ const About = () => {
         <div>
           <PageTitle title="About Me" />
         </div>
-        <div className="flex flex-col justify-center items-center lg:flex-row lg:justify-around lg:items-start lg:mt-20">
-          <div className="w-[90%] mb-20 text-sm text-justify leading-10 lg:w-1/2 xl:text-lg lg:text-left xl:w-1/3 lg:mb-32">
+        <div className="flex flex-col justify-center items-center xl:flex-row xl:justify-around xl:items-start xl:mt-20">
+          <div className="w-[90%] mb-20 text-sm text-justify leading-10 xl:text-lg xl:text-left xl:w-1/2 xl:mb-32">
             <h1 className=" mt-24">Greetings from Southampton, UK! 🚀</h1>
             <p className="mt-4">
               I'm your friendly neighborhood Full Stack Web Developer with a
@@ -40,23 +40,14 @@ const About = () => {
               adventure together! 💻✨
             </p>
           </div>
-          <div className="about-item grid grid-cols-2 w-[90%] gap-2 text-xl font-bold lg:grid-cols-1 lg:w-1/4 lg:gap-10 lg:mt-32 lg:h-20 xl:mt-32 xl:grid-cols-2 ">
-            <Complements
-              adj="Love to Learn"
-              class="hover:-translate-x-2 hover:-translate-y-2"
-            />
-            <Complements
-              adj="Team Worker"
-              class="hover:translate-x-2 hover:-translate-y-2"
-            />
-            <Complements
-              adj="Hard Worker"
-              class="hover:-translate-x-2 hover:translate-y-2"
-            />
-            <Complements
-              adj="Self-taught"
-              class="hover:translate-x-2 hover:translate-y-2"
-            />
+          <div
+            className="grid grid-cols-2 w-[90%] gap-2 text-xl font-bold xl:w-1/3 xl:gap-x-0
+           xl:h-20 xl:mt-32"
+          >
+            <Complements adj="Love to Learn" class="hover:-translate-y-2" />
+            <Complements adj="Team Worker" class="hover:-translate-y-2" />
+            <Complements adj="Hard Worker" class="hover:translate-y-2" />
+            <Complements adj="Self-taught" class="hover:translate-y-2" />
           </div>
         </div>
         <div className="flex flex-col items-center justify-center w-[80%] md:w-[100%] lg:w-[90%]">

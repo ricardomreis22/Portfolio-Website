@@ -4,7 +4,7 @@ import ProgressBar from "@ramonak/react-progress-bar";
 const SkillsBar = (props) => {
   return (
     <div className="w-full">
-      <p className="mb-5 text-lg xl:text-xl font-bold">{props.lang}</p>
+      <p className="mb-5 text-base xl:text-lg font-bold">{props.lang}</p>
       <ProgressBar
         completed={props.count}
         bgColor="#191d2b"
