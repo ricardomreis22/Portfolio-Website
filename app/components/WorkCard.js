@@ -32,10 +32,10 @@ const WorkCard = (props) => {
         </div>
       </div>
       <div className="flex justify-left mt-1 flex-wrap group-hover:hidden">
-        {langArr.map((item) => {
+        {langArr.map((item, id) => {
           return (
             <div className="border-[1px] border-solid border-[#191d2b] font-bold mr-1 mb-1 px-2">
-              {item}
+              {id}
             </div>
           );
         })}
