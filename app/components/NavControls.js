@@ -10,33 +10,33 @@ const NavControls = () => {
         <li className="flex justify-center items-center">
           <Link
             href="/"
-            className="rounded-full bg-[#dbe1e8] text-[#191d2b] p-4 mb-12 hover:bg-white"
+            className="rounded-full bg-[#dbe1e8] text-[#191d2b] p-4 mb-12 hover:bg-white cursor-pointer"
           >
-            <AiFillHome />
+            <AiFillHome style={{ cursor: "pointer" }} />
           </Link>
         </li>
         <li className="flex justify-center items-center">
           <Link
             href="/dashboard/about"
-            className="rounded-full bg-[#dbe1e8] text-[#191d2b] p-4 mb-12 hover:bg-white"
+            className="rounded-full bg-[#dbe1e8] text-[#191d2b] p-4 mb-12 hover:bg-white cursor-pointer"
           >
-            <BsFillPersonFill />
+            <BsFillPersonFill style={{ cursor: "pointer" }} />
           </Link>
         </li>
         <li className="flex justify-center items-center">
           <Link
             href="/dashboard/projects"
-            className="rounded-full bg-[#dbe1e8] text-[#191d2b] p-4 mb-12 hover:bg-white"
+            className="rounded-full bg-[#dbe1e8] text-[#191d2b] p-4 mb-12 hover:bg-white cursor-pointer"
           >
-            <AiFillFolder />
+            <AiFillFolder style={{ cursor: "pointer" }} />
           </Link>
         </li>
         <li className="flex justify-center items-center">
           <Link
             href="/dashboard/contact"
-            className="rounded-full bg-[#dbe1e8] text-[#191d2b] p-4 mb-12 hover:bg-white"
+            className="rounded-full bg-[#dbe1e8] text-[#191d2b] p-4 mb-12 hover:bg-white cursor-pointer"
           >
-            <AiFillMail />
+            <AiFillMail style={{ cursor: "pointer" }} />
           </Link>
         </li>
       </ul>

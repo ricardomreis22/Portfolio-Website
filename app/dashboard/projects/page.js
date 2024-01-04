@@ -4,8 +4,11 @@ import WorkCard from "../../components/WorkCard";
 import Navbar from "../../components/Navbar";
 import PageTitle from "../../components/PageTitle";
 const Projects = () => {
-  const tenziesLang = ["HTML", "Tailwind Css", "JS", "React", "Next.js"];
-  const PadelLang = ["HTML", "Python", "Css", "Flask"];
+  const tenziesLang = ["Html", "Css", "Javascript", "React", "Vite.js"];
+  const padelLang = ["Html", "Python", "Css", "Flask"];
+  const endorsmentsLang = ["Html", "Javascripit", "Css"];
+  const quizzicalLang = ["Html", "Javascript", "Css", "React", "Vite.js"];
+
   return (
     <div>
       <Navbar />
@@ -20,32 +23,32 @@ const Projects = () => {
         </div>
         <div className="right w-[80%] max-w-[90%] mx-auto grid text-center gap-20 mb-10 mt-20 sm:grid-cols-2 lg:max-w-[80%] xl:mt-32 xl:grid-cols-3 xl:gap-20">
           <WorkCard
-            img="/padel.gif"
+            img="/padelgif.gif"
             link="https://github.com/ricardomreis22/padeltournaments.git"
             title="Padel Tournament"
-            lang={PadelLang}
+            lang={padelLang}
             info="This was my first project, that I made to finish CS50x course where I create a Padel Club website, that the users can login the website to find tournaments in the zone for their level and register themselfs in these tournaments."
           />
           <WorkCard
-            img="/Tenzies.gif"
+            img="/championsgif.gif"
+            link="https://github.com/ricardomreis22/Quizzical.git"
+            title="Endorsments"
+            lang={endorsmentsLang}
+            info="The final project of the first react course where I did a Quiz app!"
+          />
+          <WorkCard
+            img="/tenziesgif.gif"
             link="https://github.com/ricardomreis22/Quizzical.git"
             title="Tenzies Game"
             lang={tenziesLang}
             info="A project that was part of the React Course where the users can play a game with the objetive to made all dices equal."
           />
           <WorkCard
-            img="/padel.gif"
+            img="/quizzicalgif.gif"
             link="https://github.com/ricardomreis22/Tenzies-Game.git"
             title="Quizzical"
-            lang={tenziesLang}
+            lang={quizzicalLang}
             info="The final project of the React Course where I made a quiz! In this project I would get the questions from an api and presented them in the quiz showing how many right answers the user got. "
-          />
-          <WorkCard
-            img="/padel.gif"
-            link="https://github.com/ricardomreis22/Quizzical.git"
-            title="Quizzical"
-            lang={tenziesLang}
-            info="The final project of the first react course where I did a Quiz app!"
           />
         </div>
       </div>
