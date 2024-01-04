@@ -54,7 +54,7 @@ const About = () => {
           <div className="w-[80%] xl:w-[70%]">
             <Subtitle title="My Skills" />
           </div>
-          <div className="grid gap-8 place-items-center grid-cols-1 w-[100%] mb-32 md:grid-cols-2 md:gap-y-18 md:gap-x-32 xl:gap-y-24">
+          <div className="grid gap-8 place-items-center grid-cols-2 w-[100%] mb-32 md:gap-y-18 md:gap-x-32 xl:gap-y-24">
             <SkillsBar lang="HTML" count="80" />
             <SkillsBar lang="JS" count="80" />
             <SkillsBar lang="CSS" count="70" />

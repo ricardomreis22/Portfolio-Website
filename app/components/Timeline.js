@@ -13,9 +13,9 @@ const Timeline = (props) => {
         </div>
       </div>
       <div className="lg:mb-4 ml-14 lg:mt-2">
-        <p className="font-bold text-lg xl:text-xl">
-          {props.date}
-          <span>{props.course}</span>
+        <p className="text-base">
+          {props.date} -{" "}
+          <span className="font-bold text-lg xl:text-xl">{props.course}</span>
         </p>
         <p className="mt-6 text-base xl:text-lg">{props.description}</p>
       </div>

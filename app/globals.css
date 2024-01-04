@@ -1,6 +1,6 @@
 @tailwind base;
 @tailwind components;
-@tailwind utilities;
+ @tailwind utilities;
 
 *{
   cursor: default;
@@ -29,6 +29,15 @@ body {
   display: block;
   animation: scaleAnim 1s ease-in-out;
 }
+
+.twelve {
+  font-size: 40px;
+  font-weight: 600;
+  color: #191d2b;
+  text-shadow: 0px 0px 5px #dbe1e8, 10px 0px 10px #dbe1e8, 0px 0px 10px #dbe1e8,
+    0px 0px 20px #dbe1e8;
+}
+
 
 @media (max-width: 1024px){
   .home{  

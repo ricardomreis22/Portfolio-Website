@@ -15,8 +15,8 @@ const Contact = () => {
       <div className="hidden  absolute right-0 top-[35%] mr-12 lg:block">
         <NavControls />
       </div>
-      <div className="flex flex-col justify-center items-center text-sm lg:mt-10 mb-10">
-        <div className="flex flex-col justify-center mt-8 lg:items-center lg:w-[50%]">
+      <div className="flex flex-col justify-center items-center text-sm">
+        <div className="flex flex-col justify-center lg:items-center lg:w-[50%]">
           <div className="mb-20">
             <PageTitle title="Contact" />
           </div>
