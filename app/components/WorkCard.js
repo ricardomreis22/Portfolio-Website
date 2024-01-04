@@ -12,26 +12,22 @@ const WorkCard = (props) => {
           {props.title}
         </h1>
         <Link href={`${props.link}`} target="_blank">
-          <AiFillGithub
-            size={40}
-            className="cursor-pointer hidden group-hover:flex"
-          />
+          <AiFillGithub size={40} className="cursor-pointer flex" />
         </Link>
       </div>
-      <div className="w-full h-[200px] bg-[#191d2b] shadow-xl flex flex-col justify-center items-center duration-300">
+      <div className="w-auto h-[240px] bg-[#191d2b] shadow-xl flex flex-col justify-center items-center">
         <Image
           src={props.img}
           alt="background Image"
           width={0}
           height={0}
-          sizes="200vh"
-          className="hidden w-full group-hover:flex"
+          className="hidden w-full group-hover:flex h-[240px]"
         />
         <div className="flex group-hover:hidden flex-col justify-center items-center text-white w-[70%]">
           <p className="text-center text-sm lg:text-md ">{props.info}</p>
         </div>
       </div>
-      <div className="flex justify-left mt-1 flex-wrap group-hover:mt-6">
+      <div className="flex justify-left mt-1 flex-wrap">
         {langArr.map((item, index) => {
           return (
             <div

@@ -24,21 +24,21 @@ const Projects = () => {
             link="https://github.com/ricardomreis22/padeltournaments.git"
             title="Padel Tournament"
             lang={PadelLang}
-            info="This was my first project, that I made to finish CS50x course! Here I made a Padel Club website, where the users can register and login in the website to find tournaments in the zone for their level and register themselfs in these tournaments "
+            info="This was my first project, that I made to finish CS50x course where I create a Padel Club website, that the users can login the website to find tournaments in the zone for their level and register themselfs in these tournaments."
           />
           <WorkCard
             img="/Tenzies.gif"
             link="https://github.com/ricardomreis22/Quizzical.git"
             title="Tenzies Game"
             lang={tenziesLang}
-            info="The final project of the first react course where I did a Quiz app!"
+            info="A project that was part of the React Course where the users can play a game with the objetive to made all dices equal."
           />
           <WorkCard
             img="/padel.gif"
             link="https://github.com/ricardomreis22/Tenzies-Game.git"
-            title="Tenzies Game"
+            title="Quizzical"
             lang={tenziesLang}
-            info="A project where I have done a game with the objetive of getting all numbers equal!"
+            info="The final project of the React Course where I made a quiz! In this project I would get the questions from an api and presented them in the quiz showing how many right answers the user got. "
           />
           <WorkCard
             img="/padel.gif"
