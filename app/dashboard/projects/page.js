@@ -18,20 +18,20 @@ const Projects = () => {
             <PageTitle title="Projects" />
           </div>
         </div>
-        <div className="right w-[80%] max-w-[90%] mx-auto grid text-center gap-20 gap-y-12 mb-10 mt-20 sm:grid-cols-2 lg:max-w-[80%] xl:mt-32 xl:grid-cols-3 xl:gap-20">
+        <div className="right w-[80%] max-w-[90%] mx-auto grid text-center gap-20 mb-10 mt-20 sm:grid-cols-2 lg:max-w-[80%] xl:mt-32 xl:grid-cols-3 xl:gap-20">
+          <WorkCard
+            img="/padel.gif"
+            link="https://github.com/ricardomreis22/padeltournaments.git"
+            title="Padel Tournament"
+            lang={PadelLang}
+            info="This was my first project, that I made to finish CS50x course! Here I made a Padel Club website, where the users can register and login in the website to find tournaments in the zone for their level and register themselfs in these tournaments "
+          />
           <WorkCard
             img="/Tenzies.gif"
             link="https://github.com/ricardomreis22/Quizzical.git"
             title="Tenzies Game"
             lang={tenziesLang}
             info="The final project of the first react course where I did a Quiz app!"
-          />
-          <WorkCard
-            img="/padel.gif"
-            link="https://github.com/ricardomreis22/padeltournaments.git"
-            title="Padel Tournament"
-            lang={PadelLang}
-            info="Final project of the course 'CS50: Introduction to Computer Science' creating a Padel Club!"
           />
           <WorkCard
             img="/padel.gif"

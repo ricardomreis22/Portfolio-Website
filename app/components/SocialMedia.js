@@ -20,13 +20,6 @@ const SocialMedia = () => {
         {" "}
         <AiFillGithub size={30} className="cursor-pointer" />
       </Link>
-      <Link
-        href="https://facebook.com/ricardo.mdr22/"
-        className="z-50"
-        target="_blank"
-      >
-        <AiFillFacebook size={30} className="cursor-pointer" />
-      </Link>
     </div>
   );
 };

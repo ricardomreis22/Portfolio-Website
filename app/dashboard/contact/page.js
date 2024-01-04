@@ -26,7 +26,7 @@ const Contact = () => {
         </div>
         <div className="w-[90%] mt-10 md:flex md:justify-center md:items-center">
           <Form />
-          <div className="mt-32 flex flex-col items-center w-[90%] md:w-1/2 md:items-end lg:items-center">
+          <div className="mt-32 mx-auto flex flex-col justify-center items-center w-[90%] md:w-1/2 md:items-end lg:items-center">
             <div className="flex mb-5 justify-center items-center">
               <AiFillPhone size={"1.5rem"} className="mr-5" />
               <span className="xl:text-xl">+447554913107</span>

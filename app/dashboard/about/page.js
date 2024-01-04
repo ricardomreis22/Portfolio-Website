@@ -54,7 +54,7 @@ const About = () => {
           <div className="w-[80%] xl:w-[70%]">
             <Subtitle title="My Skills" />
           </div>
-          <div className="grid gap-8 place-items-center grid-cols-2 w-[100%] mb-32 md:gap-y-18 md:gap-x-32 xl:gap-y-24">
+          <div className="grid gap-8 place-items-center grid-cols-2 w-[100%] mb-20 md:gap-y-18 md:gap-x-32 xl:gap-y-24">
             <SkillsBar lang="HTML" count="80" />
             <SkillsBar lang="JS" count="80" />
             <SkillsBar lang="CSS" count="70" />
@@ -69,7 +69,7 @@ const About = () => {
             <Subtitle title="Timeline" />
           </div>
           <div className="flex flex-col w-[100%] justify-between items-center lg:flex-row ">
-            <div className="grid grid-cols-1 gap-y-20 gap-x-64 place-items-center text-left w-[90%] mb-44 ml-6 mt-20 md:gap-x-10 lg:w-[50%] xl:ml-24 relative ">
+            <div className="grid grid-cols-1 gap-y-20 gap-x-64 place-items-center text-left w-[90%] mb-44 ml-6 mt-10 md:gap-x-10 lg:w-[50%] xl:ml-24 relative ">
               <h1 className="text-xl justify-start -rotate-90 absolute bottom-[50%] -left-20 lg:-left-14">
                 Work
               </h1>
@@ -89,7 +89,7 @@ const About = () => {
                 description="While studying I had the opportunity to work as Teacher in Web Dev"
               />
             </div>
-            <div className="grid grid-cols-1 gap-y-20 gap-x-64 place-items-center text-left w-[100%] mb-44 ml-6 mt-20 md:gap-x-10 lg:w-[50%] xl:ml-24 relative ">
+            <div className="grid grid-cols-1 gap-y-20 gap-x-64 place-items-center text-left w-[100%] mb-44 ml-6 mt-10 md:gap-x-10 lg:w-[50%] xl:ml-24 relative ">
               <h1 className="text-xl justify-start -rotate-90 absolute bottom-[50%] -left-20 lg:-left-14">
                 Study
               </h1>
