@@ -21,7 +21,7 @@ const Projects = () => {
             <PageTitle title="Projects" />
           </div>
         </div>
-        <div className="right w-[80%] max-w-[90%] mx-auto grid text-center gap-20 mb-10 mt-20 sm:grid-cols-2 lg:max-w-[80%] xl:mt-32 xl:grid-cols-3 xl:gap-20">
+        <div className="right w-[80%] max-w-[90%] mx-auto grid text-center gap-20 mb-10 mt-20 justify-center lg:grid-cols-2 lg:max-w-[80%] xl:mt-32 2xl:grid-cols-3 xl:gap-20">
           <WorkCard
             img="/padelgif.gif"
             link="https://github.com/ricardomreis22/padeltournaments.git"

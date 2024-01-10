@@ -21,7 +21,7 @@ const About = () => {
           <PageTitle title="About Me" />
         </div>
         <div className="flex flex-col justify-center items-center xl:flex-row xl:justify-around xl:items-start xl:mt-20">
-          <div className="w-[90%] mb-20 text-sm text-justify leading-10 xl:text-lg xl:text-left xl:w-1/2 xl:mb-32">
+          <div className="w-[80%] mb-20 text-sm text-justify leading-10 xl:text-lg xl:text-left xl:w-1/2 xl:mb-32">
             <h1 className=" mt-24">Greetings from Southampton, UK! 🚀</h1>
             <p className="mt-4">
               I'm your friendly neighborhood Full Stack Web Developer with a
@@ -41,7 +41,7 @@ const About = () => {
             </p>
           </div>
           <div
-            className="grid grid-cols-2 w-[90%] gap-2 text-xl font-bold xl:w-1/3 xl:gap-x-0
+            className="grid grid-cols-2 w-[80%] gap-2 text-xl font-bold xl:w-1/3 xl:gap-x-0
            xl:h-20 xl:mt-32"
           >
             <Complements adj="Love to Learn" class="hover:-translate-y-2" />
@@ -54,7 +54,7 @@ const About = () => {
           <div className="w-[80%] xl:w-[70%]">
             <Subtitle title="My Skills" />
           </div>
-          <div className="grid gap-8 place-items-center grid-cols-2 w-[100%] mb-20 md:gap-y-18 md:gap-x-32 xl:gap-y-24">
+          <div className="grid gap-6 place-items-center grid-cols-2 w-[100%] mb-20 md:gap-y-12 md:gap-x-32 xl:gap-y-16">
             <SkillsBar lang="HTML" count="80" />
             <SkillsBar lang="JS" count="80" />
             <SkillsBar lang="CSS" count="70" />
@@ -64,6 +64,8 @@ const About = () => {
             <SkillsBar lang="Bootstrap" count="60" />
             <SkillsBar lang="C++" count="50" />
             <SkillsBar lang="Flask" count="50" />
+            <SkillsBar lang="Vite.js" count="70" />
+            <SkillsBar lang="Next.js" count="70" />
           </div>
           <div className="w-[80%] lg:w-[70%]">
             <Subtitle title="Timeline" />

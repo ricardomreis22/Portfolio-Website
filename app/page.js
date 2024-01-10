@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import Button from "./components/Button";
 import Image from "next/image";
 import NavControls from "./components/NavControls";
+import PageTitle from "./components/PageTitle";
 
 export default function Page() {
   return (
@@ -23,14 +24,15 @@ export default function Page() {
         </div>
         <div className="flex flex-col font-bold justify-center items-center text-center text-lg lg:h-screen lg:mr-10 lg:text-xl">
           <div className="w-3/4 lg:w-2/3 lg:mr-10 lg:text-lg xl:text-xl">
-            <h1 className="text-2xl mb-16 md:mt-12 lg:text-3xl xl:text-4xl">
-              Hello, I'm Ricardo Reis!
-            </h1>
-            <p className="mt-4 mb-16 lg:mt-12 font-normal">
-              I'm a new Full Stack Web Developer! I love to learn, and I'm eager
-              to start in my new job. Give me the chance to prove my value, and
-              I will give you my best to become better every day!
+            <div>
+              <PageTitle title="Hellooo! I'm Ricardo Reis" />
+            </div>
+            <p className="mt-4 lg:mt-12 font-normal">
+              I'm a Full Stack Web Developer who loves to learn, and to become
+              better everyday. Here you will see more about me, and what I can
+              do.
             </p>
+            <p className="mb-16 mt-2 font-bold">I hope you like it!</p>
             <div className="flex justify-center min-w-fit lg:items-center lg:justify-center w-full">
               <Button
                 className="w-full md:w-1/2 py-1 cursor-pointer"

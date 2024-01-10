@@ -6,7 +6,7 @@ import Image from "next/image";
 const WorkCard = (props) => {
   const langArr = props.lang;
   return (
-    <div>
+    <div className="min-w-[350px] max-w-[350px]">
       <Link href={`${props.link}`} target="_blank" className="group">
         <div className="flex bg-[#dbe1e8] text-[#191d2b] mb-1 w-[100%] h-[50px] shadow-2xl border-solid border-[#191d2b] border-[2px] justify-center items-center p-7 cursor-pointer">
           <h1 className=" text-md lg:text-xl xl:text-xl font-bold mr-6 cursor-pointer">

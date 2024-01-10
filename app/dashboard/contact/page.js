@@ -3,42 +3,41 @@
 import React from "react";
 import Navbar from "../../components/Navbar";
 import NavControls from "../../components/NavControls";
-import SocialMedia from "../../components/SocialMedia";
 import PageTitle from "../../components/PageTitle";
-import { AiFillMail, AiFillPhone } from "react-icons/ai";
+
 import Form from "../../components/Form";
+import Footer from "../../components/Footer";
 
 const Contact = () => {
   return (
     <div className="#dbe1e8 text-[#191d2b]">
       <Navbar />
-      <div className="hidden  absolute right-0 top-[35%] mr-12 lg:block">
+      <div className="hidden absolute right-0 top-[35%] mr-12 lg:block">
         <NavControls />
       </div>
-      <div className="flex flex-col justify-center items-center text-sm">
-        <div className="flex flex-col justify-center lg:items-center lg:w-[50%]">
+      <div className="flex flex-col justify-center items-center text-sm mb-20 lg:w-[80%] m-auto">
+        <div className="flex flex-col justify-center  lg:items-center ">
           <div className="mb-20">
             <PageTitle title="Contact" />
           </div>
-          <p className="lg:text-xl mb-24">
-            If you need anything please contact me!
-          </p>
         </div>
-        <div className="w-[90%] mt-10 md:flex md:justify-center md:items-center">
-          <Form />
-          <div className="mt-32 mx-auto flex flex-col justify-center items-center w-[90%] md:w-1/2 md:items-end lg:items-center">
-            <div className="flex mb-5 justify-center items-center">
-              <AiFillPhone size={"1.5rem"} className="mr-5" />
-              <span className="xl:text-xl">+447554913107</span>
-            </div>
-            <div className="flex mb-10 justify-center items-center">
-              <AiFillMail size={"1.5rem"} className="mr-5" />
-              <span className="xl:text-xl">ricardomreis22@hotmail.com</span>
-            </div>
-            <SocialMedia />
+        <div className="flex flex-col justify-center items-center md:justify-center">
+          <div className="w-[80%] text-justify leading-10 md:w-[70%] xl:mt-10 xl:mb-20 2xl:w-[80%]">
+            <p className="lg:text-lg xl:text-xl">
+              Hey there! Thanks for stopping by. If you have any questions,
+              ideas, or just want to say hi, feel free to drop me a message.
+            </p>
+            <p className="lg:text-lg xl:text-xl">
+              I'm always excited to connect and talk about web development.
+              Let's keep on learning!
+            </p>
+          </div>
+          <div className="w-[80%] md:w-[70%] mt-10 xl:mt-0 xl:w-[40%] lg:text-lg">
+            <Form />
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

@@ -64,7 +64,7 @@ export const Form = () => {
   };
 
   return (
-    <div className="flex flex-col mt-4 mx-4 md:w-1/2 xl:w-1/3 text-white">
+    <div className="flex flex-col mt-4 mx-4  xl:w-full text-white">
       {Object.keys(formErrors).length === 0 && isSubmit && (
         <p className="text-xl font-bold text-[#191d2b]">
           Email sent sucessfully!
@@ -131,7 +131,7 @@ export const Form = () => {
         items-center
         text-center
         py-1 cursor-pointer
-        xl:w-[33%]"
+        "
           value="Submit"
         />{" "}
       </form>
