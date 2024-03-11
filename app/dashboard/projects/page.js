@@ -31,21 +31,21 @@ const Projects = () => {
           />
           <WorkCard
             img="/championsgif.gif"
-            link="https://github.com/ricardomreis22/Quizzical.git"
+            link="https://github.com/ricardomreis22/Endorsments.git"
             title="Endorsments"
             lang={endorsmentsLang}
             info="The final project of the Javascript course from Scrimba where the user can write an endorxment to someone. Here I save, update and get the endorsments to/from a database. "
           />
           <WorkCard
             img="/tenziesgif.gif"
-            link="https://github.com/ricardomreis22/Quizzical.git"
+            link="https://github.com/ricardomreis22/Tenzies-Game.git"
             title="Tenzies Game"
             lang={tenziesLang}
             info="A project that was part of the React Course where the users can play a game with the goal to made all dices equal as fast I can. Here I presented the fastest time and less rolls needed."
           />
           <WorkCard
             img="/quizzicalgif.gif"
-            link="https://github.com/ricardomreis22/Tenzies-Game.git"
+            link="https://github.com/ricardomreis22/Quizzical.git"
             title="Quizzical"
             lang={quizzicalLang}
             info="The final project of the React Course where I made a quiz! In this project I would get the questions from an api and presented them in the quiz showing the correct answer and how many correct answers the user got. "
