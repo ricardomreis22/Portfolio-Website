@@ -76,14 +76,14 @@ const About = () => {
                 Work
               </h1>
               <Timeline
-                date="2009 to 2019"
-                course="Waiter"
-                description="I started working part-time while studying"
+                date="2024"
+                course="Internship Web Developer"
+                description="Internship in a company called PortF where I worked as FullStack Web Developer"
               />
               <Timeline
                 date="2019 to 2022"
-                course="Sport Teacher and Coach"
-                description="My first jobs as in Education"
+                course="Sports Teacher and Coach"
+                description="My first jobs in Education where more about leadership and planning"
               />
               <Timeline
                 date="2022 to 2023"
